@@ -25,7 +25,7 @@ class CharStreamDemo {
       FileWriter fw = new FileWriter("oops/Questions/Unit_2/files/notes.txt", true);
 
       fw.write("song hehehe : ");
-      fw.append("jana samjho na dil darta , tere galiyo mein he rehta hai ....");
+      fw.append("jana samjho na dil kehta hai , tere galiyo mein he rehta hai ....");
 
       // flush -> forces Buffered data to destination before closing
       fw.flush();
