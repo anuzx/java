@@ -31,8 +31,8 @@ class TestPoly {
     Calculator c = new Calculator();
     System.out.println(c.add(10, 20));
 
-    // overriding
-    Bank b = new SBI();// upcasting
-    System.out.println("Rate:" + b.getRate());
+    // overriding -> Same method name, same parameters, parent vs child class
+    Bank b = new SBI();// upcasting -> done to achieve runtime polymorphism
+    System.out.println("Rate:" + b.getRate()); // 8
   }
 }
